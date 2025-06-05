@@ -4,5 +4,13 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/natural-wine-pages/', // GitHub Pages 배포를 위한 base URL
+  base: process.env.NODE_ENV === 'production' ? '/natural-wine-pages/' : '/',
+  build: {
+    assetsDir: 'assets',
+    rollupOptions: {
+      output: {
+        assetFileNames: 'assets/[name][extname]'
+      }
+    }
+  }
 })

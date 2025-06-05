@@ -1,3 +1,78 @@
+# Photo Gallery
+
+React + Vite로 구현된 포토 갤러리 웹사이트입니다.
+
+## 기능
+
+- 월별 갤러리 탭 인터페이스
+- 이미지 클릭 시 모달로 확대 보기
+- 반응형 그리드 레이아웃
+- 이미지 로딩 실패 시 대체 이미지 표시
+
+## 개발 환경 설정
+
+1. 저장소 클론
+```bash
+git clone https://github.com/lovit/natural-wine-pages.git
+cd natural-wine-pages
+```
+
+2. 의존성 설치
+```bash
+npm install
+```
+
+3. 개발 서버 실행
+```bash
+npm run dev
+```
+개발 서버가 실행되면 다음 URL에서 웹사이트를 확인할 수 있습니다:
+```
+http://localhost:5173/natural-wine-pages/
+```
+
+## 빌드 및 배포
+
+1. 프로덕션 빌드
+```bash
+npm run build
+```
+
+2. 빌드된 결과물 미리보기
+```bash
+npm run preview
+```
+
+## 이미지 관리
+
+이미지는 `public/images/` 디렉토리 아래에 다음과 같은 구조로 관리됩니다:
+```
+public/
+  images/
+    25-04/  # 2025년 4월 갤러리
+      250401.png
+      250402.png
+      250403.png
+      ...
+    25-05/  # 2025년 5월 갤러리
+      250501.png
+      250502.png
+      250503.png
+      ...
+```
+
+파일명 규칙:
+- YYMMDD.png 형식 (예: 250401.png = 2025년 4월 1일)
+- 각 월별 폴더에 해당 월의 이미지들이 저장됨
+
+## 기술 스택
+
+- React
+- TypeScript
+- Vite
+- Chakra UI
+- GitHub Pages (배포)
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
