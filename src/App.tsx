@@ -1,4 +1,4 @@
-import { Box, Container, Heading, Image, SimpleGrid, Text, VStack, useBreakpointValue } from '@chakra-ui/react'
+import { Box, Container, Heading, Image, SimpleGrid, Text, VStack, Select, HStack, useBreakpointValue } from '@chakra-ui/react'
 import { useState } from 'react'
 import type { ImageData } from './types'
 import { gallery25_01 } from './data/gallery25_01'
@@ -106,7 +106,7 @@ function Gallery({ images }: { images: ImageData[] }) {
 
 function App() {
   const [selectedMonth, setSelectedMonth] = useState('01')
-  const gridColumns = useBreakpointValue({ base: 2, md: 3, lg: 5 })
+  const selectWidth = useBreakpointValue({ base: '100%', md: '200px' })
 
   const months = [
     { id: '01', label: 'January 2025', data: gallery25_01 },
@@ -124,39 +124,25 @@ function App() {
         <Heading as="h1" size="2xl">My Photo Gallery</Heading>
         <Text fontSize="xl" color="gray.600">A collection of beautiful moments</Text>
         
-        <SimpleGrid
-          columns={gridColumns}
-          spacing={4}
-          width="100%"
-        >
-          {months.map((month) => (
-            <Box
-              key={month.id}
-              p={4}
-              borderWidth="1px"
-              borderRadius="lg"
-              cursor="pointer"
-              onClick={() => setSelectedMonth(month.id)}
-              bg={selectedMonth === month.id ? 'blue.50' : 'white'}
-              borderColor={selectedMonth === month.id ? 'blue.500' : 'gray.200'}
-              transition="all 0.2s"
-              _hover={{
-                transform: 'translateY(-2px)',
-                shadow: 'md',
-                borderColor: 'blue.300'
-              }}
-            >
-              <Text
-                fontSize="lg"
-                fontWeight="medium"
-                textAlign="center"
-                color={selectedMonth === month.id ? 'blue.600' : 'gray.700'}
-              >
+        <HStack spacing={4} width="100%" justify="center">
+          <Select
+            value={selectedMonth}
+            onChange={(e) => setSelectedMonth(e.target.value)}
+            width={selectWidth}
+            size="lg"
+            variant="filled"
+            bg="white"
+            borderColor="gray.200"
+            _hover={{ borderColor: 'blue.300' }}
+            _focus={{ borderColor: 'blue.500', boxShadow: '0 0 0 1px var(--chakra-colors-blue-500)' }}
+          >
+            {months.map((month) => (
+              <option key={month.id} value={month.id}>
                 {month.label}
-              </Text>
-            </Box>
-          ))}
-        </SimpleGrid>
+              </option>
+            ))}
+          </Select>
+        </HStack>
 
         <Box width="100%">
           <Gallery images={selectedGallery} />
