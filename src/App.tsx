@@ -105,9 +105,6 @@ function Gallery({ images }: { images: ImageData[] }) {
 }
 
 function App() {
-  const [selectedMonth, setSelectedMonth] = useState('01')
-  const selectWidth = useBreakpointValue({ base: '100%', md: '200px' })
-
   const months = [
     { id: '01', label: 'January 2025', data: gallery25_01 },
     { id: '02', label: 'February 2025', data: gallery25_02 },
@@ -115,6 +112,9 @@ function App() {
     { id: '04', label: 'April 2025', data: gallery25_04 },
     { id: '05', label: 'May 2025', data: gallery25_05 }
   ]
+
+  const [selectedMonth, setSelectedMonth] = useState(months[months.length - 1].id)
+  const selectWidth = useBreakpointValue({ base: '100%', md: '200px' })
 
   const selectedGallery = months.find(m => m.id === selectedMonth)?.data || gallery25_01
 
