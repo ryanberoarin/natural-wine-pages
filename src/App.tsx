@@ -106,11 +106,11 @@ function Gallery({ images }: { images: ImageData[] }) {
 
 function App() {
   const months = [
-    { id: '01', label: 'January 2025', data: gallery25_01 },
-    { id: '02', label: 'February 2025', data: gallery25_02 },
-    { id: '03', label: 'March 2025', data: gallery25_03 },
-    { id: '04', label: 'April 2025', data: gallery25_04 },
-    { id: '05', label: 'May 2025', data: gallery25_05 }
+    { id: '01', label: '2025.01', data: gallery25_01 },
+    { id: '02', label: '2025.02', data: gallery25_02 },
+    { id: '03', label: '2025.03', data: gallery25_03 },
+    { id: '04', label: '2025.04', data: gallery25_04 },
+    { id: '05', label: '2025.05', data: gallery25_05 }
   ]
 
   const [selectedMonth, setSelectedMonth] = useState(months[months.length - 1].id)
@@ -121,9 +121,7 @@ function App() {
   return (
     <Container maxW="container.xl" py={8}>
       <VStack gap={8}>
-        <Heading as="h1" size="2xl">My Photo Gallery</Heading>
-        <Text fontSize="xl" color="gray.600">A collection of beautiful moments</Text>
-        
+        <Heading as="h1" size="2xl">자연스러운 와인 모임</Heading>
         <HStack spacing={4} width="100%" justify="center">
           <Select
             value={selectedMonth}
