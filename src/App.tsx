@@ -1,6 +1,9 @@
 import { Box, Container, Heading, Image, SimpleGrid, Text, VStack, Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 import { useState } from 'react'
 import type { ImageData } from './types'
+import { gallery25_01 } from './data/gallery25_01'
+import { gallery25_02 } from './data/gallery25_02'
+import { gallery25_03 } from './data/gallery25_03'
 import { gallery25_04 } from './data/gallery25_04'
 import { gallery25_05 } from './data/gallery25_05'
 
@@ -110,11 +113,23 @@ function App() {
         
         <Tabs isFitted variant="enclosed" width="100%">
           <TabList mb="1em">
+            <Tab>January 2025</Tab>
+            <Tab>February 2025</Tab>
+            <Tab>March 2025</Tab>
             <Tab>April 2025</Tab>
             <Tab>May 2025</Tab>
           </TabList>
 
           <TabPanels>
+            <TabPanel>
+              <Gallery images={gallery25_01} />
+            </TabPanel>
+            <TabPanel>
+              <Gallery images={gallery25_02} />
+            </TabPanel>
+            <TabPanel>
+              <Gallery images={gallery25_03} />
+            </TabPanel>
             <TabPanel>
               <Gallery images={gallery25_04} />
             </TabPanel>
