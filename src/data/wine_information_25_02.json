@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Joséphine",
+    "vintage": "",
+    "region": "France / Languedoc / Roquetaillade",
+    "winery": "Geneviève & Gilles Azam",
+    "notes": "Brut Nature, Méthode Ancestrale 스파클링, 산뜻하고 섬세한 기포"
+  },
+  {
+    "name": "Céleste",
+    "vintage": "2022",
+    "region": "France / Languedoc / Roquetaillade",
+    "winery": "Geneviève & Gilles Azam",
+    "notes": "화이트 와인, 산뜻한 산미와 미네랄 풍미 중심"
+  },
+  {
+    "name": "Terre de Silex",
+    "vintage": "",
+    "region": "France / Loire",
+    "winery": "",
+    "notes": "Sauvignon Blanc 기반 추정, 미네랄 중심의 화이트 와인"
+  },
+  {
+    "name": "le Clau",
+    "vintage": "2023",
+    "region": "France",
+    "winery": "",
+    "notes": "Vin de France 등급, 라벨로 보아 내추럴 스타일 와인"
+  },
+  {
+    "name": "Panorama",
+    "vintage": "",
+    "region": "France / Languedoc",
+    "winery": "Geneviève & Gilles Azam",
+    "notes": "로제 와인, 은은한 탄닌과 풍부한 풍미, 내추럴 스타일"
+  },
+  {
+    "name": "Volnay 1er Cru 'Clos des Chênes'",
+    "vintage": "",
+    "region": "France / Bourgogne / Volnay",
+    "winery": "Domaine Potinet-Ampeau",
+    "notes": "Pinot Noir 기반, 구조감과 우아함이 있는 프리미어 크뤼 레드"
+  },
+  {
+    "name": "[Label: 붉은 곡선 로고]",
+    "vintage": "",
+    "region": "France / Loire",
+    "winery": "",
+    "notes": "생산자는 Domaine R de la B 추정, 내추럴 화이트 와인 계열로 보임"
+  },
+  {
+    "name": "Homme de la Roche",
+    "vintage": "2023",
+    "region": "France",
+    "winery": "",
+    "notes": "Vin de France 등급, 내추럴 와인, 경쾌하고 과실 중심의 레드 또는 로제"
+  },
+  {
+    "name": "Tavel",
+    "vintage": "2022",
+    "region": "France / Rhône / Tavel",
+    "winery": "Romain Le Bars",
+    "notes": "AOP Tavel, 내추럴 로제, 집중도 높고 풍부한 구조감"
+  },
+  {
+    "name": "Panorama",
+    "vintage": "",
+    "region": "France / Languedoc",
+    "winery": "Geneviève & Gilles Azam",
+    "notes": "화이트 버전, 미네랄리티 중심의 화이트로 보임 (같은 이름 중 복수 존재)"
+  },
+  {
+    "name": "Tavel",
+    "vintage": "2022",
+    "region": "France / Rhône / Tavel",
+    "winery": "Romain Le Bars",
+    "notes": "중복 병: AOP Tavel 로제 와인, 내추럴 스타일"
+  }
+]

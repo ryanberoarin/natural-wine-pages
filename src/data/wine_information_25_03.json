@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Crémant d'Alsace Auxerrois",
+    "vintage": "2018",
+    "region": "France / Alsace",
+    "winery": "Pierre Frick",
+    "notes": "Crémant, Auxerrois 품종, sans sulfite, 바이오다이나믹, 섬세한 기포와 구조감"
+  },
+  {
+    "name": "Auxerrois Pur Vin Sec",
+    "vintage": "2018",
+    "region": "France / Alsace",
+    "winery": "Pierre Frick",
+    "notes": "드라이한 스틸 화이트, 무황, 무여과, 순수함과 미네랄리티 중심"
+  },
+  {
+    "name": "Bergweingarten",
+    "vintage": "2016",
+    "region": "France / Alsace",
+    "winery": "Pierre Frick",
+    "notes": "단맛 있는 화이트, residual sugar 15.8g/L, 리치하고 풍부한 스타일"
+  },
+  {
+    "name": "Riesling Carrière",
+    "vintage": "2019",
+    "region": "France / Alsace",
+    "winery": "Pierre Frick",
+    "notes": "Maceration 화이트, 무황, 드라이, 오렌지 와인 스타일"
+  },
+  {
+    "name": "Pinot Gris maceration",
+    "vintage": "2019",
+    "region": "France / Alsace",
+    "winery": "Pierre Frick",
+    "notes": "오렌지 와인, 무황, sec, 풍부한 바디감과 향신료 느낌"
+  },
+  {
+    "name": "Gewurztraminer Fischbach",
+    "vintage": "2021",
+    "region": "France / Alsace",
+    "winery": "Pierre Frick",
+    "notes": "Maceration, 무여과, 무황, floral & 스파이시 향 가득한 내추럴 오렌지 와인"
+  },
+  {
+    "name": "Gewurztraminer Steinert",
+    "vintage": "2017",
+    "region": "France / Alsace / Grand Cru Steinert",
+    "winery": "Pierre Frick",
+    "notes": "Maceration, sans sulfite, Alsace Grand Cru, 스파이시하고 구조감 있는 오렌지 와인"
+  },
+  {
+    "name": "Riesling Grand Cru Steinert",
+    "vintage": "2019",
+    "region": "France / Alsace / Grand Cru Steinert",
+    "winery": "Pierre Frick",
+    "notes": "Dry Riesling, Grand Cru, 미네랄과 산미 중심, 황 무첨가"
+  },
+  {
+    "name": "Pinot Noir Rot Murle",
+    "vintage": "2022",
+    "region": "France / Alsace",
+    "winery": "Pierre Frick",
+    "notes": "Pur Vin, 무황, 드라이한 레드, 밝고 생동감 있는 과실 풍미"
+  },
+  {
+    "name": "Pinot Noir Physalis",
+    "vintage": "2020",
+    "region": "France / Alsace",
+    "winery": "Pierre Frick",
+    "notes": "무황 첨가, 섬세한 탄닌과 풍부한 체리 아로마 중심의 레드"
+  },
+  {
+    "name": "Pinot Gris Vendanges Tardives",
+    "vintage": "2010",
+    "region": "France / Alsace",
+    "winery": "Pierre Frick",
+    "notes": "Late harvest, 감미로운 디저트 와인, 복합적이고 집중도 높은 아로마"
+  }
+]

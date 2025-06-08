@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Les Capriades Méthode Ancestrale",
+    "vintage": "",
+    "region": "France / Loire",
+    "winery": "Les Capriades",
+    "notes": "Pet-Nat (Méthode Ancestrale), 자연 효모, 필터링 없는 섬세한 거품"
+  },
+  {
+    "name": "Bodet-Herold Les Greffiers",
+    "vintage": "2021",
+    "region": "France / Loire",
+    "winery": "Bodet-Herold",
+    "notes": "100% Chenin Blanc, Brut Nature, limestone terroir 기반 섬세한 기포"
+  },
+  {
+    "name": "Louisette",
+    "vintage": "2023",
+    "region": "France / Roussillon / Banyuls-sur-Mer",
+    "winery": "Bruno Duchêne",
+    "notes": "Vin de France, 천연발효 로제 페티앙, 과일향과 산미"
+  },
+  {
+    "name": "[Label: 붉은 추상화]",
+    "vintage": "",
+    "region": "",
+    "winery": "",
+    "notes": "정보 부족 (에티켓으로 추정되는 내추럴 레드 혹은 로제)"
+  },
+  {
+    "name": "Domaine Vinci Còdols",
+    "vintage": "",
+    "region": "France / Roussillon",
+    "winery": "Domaine Vinci",
+    "notes": "Grenache Blanc, 내추럴 화이트 와인, 섬세한 미네랄"
+  },
+  {
+    "name": "Domaine Vinci Coyade",
+    "vintage": "",
+    "region": "France / Roussillon",
+    "winery": "Domaine Vinci",
+    "notes": "Grenache Noir, Mourvèdre 등 블렌드, 과일 중심 레드"
+  },
+  {
+    "name": "Domaine Vinci Tecla",
+    "vintage": "",
+    "region": "France / Roussillon",
+    "winery": "Domaine Vinci",
+    "notes": "Macabeu, Grenache Gris 등, 텍스처와 미네랄리티 중심"
+  },
+  {
+    "name": "[Label: 케상느 추정]",
+    "vintage": "",
+    "region": "",
+    "winery": "Késané?",
+    "notes": "정보 부족 (라벨로 미루어 볼 때 예술적 내추럴 화이트 추정)"
+  },
+  {
+    "name": "[Label: 파란 소용돌이]",
+    "vintage": "",
+    "region": "",
+    "winery": "",
+    "notes": "정보 부족 (아티스틱한 라벨로 추정, 내추럴 와인일 가능성 높음)"
+  },
+  {
+    "name": "[Label: 여우와 포도]",
+    "vintage": "",
+    "region": "",
+    "winery": "",
+    "notes": "정보 부족 (스테인드 글라스 느낌의 라벨, 내추럴 와인 추정)"
+  },
+  {
+    "name": "Cuvee Weiss",
+    "vintage": "2021",
+    "region": "Germany",
+    "winery": "Dominik Held",
+    "notes": "화이트 와인 블렌드, 내추럴 스타일, 독일산"
+  },
+  {
+    "name": "Ron-rond blanc",
+    "vintage": "2023",
+    "region": "France / Alsace",
+    "winery": "Yann Durmann & Co",
+    "notes": "Vin de France, Cuvée Nature, 무첨가 내추럴 화이트"
+  },
+  {
+    "name": "Pinot Noir",
+    "vintage": "2022",
+    "region": "France / Alsace",
+    "winery": "Yann Durmann & Co",
+    "notes": "Cuvée Nature, 무첨가 내추럴 레드, Alsace Pinot Noir"
+  }
+]

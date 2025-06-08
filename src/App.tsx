@@ -1,17 +1,17 @@
 import { Box, Container, Heading, Image, SimpleGrid, Text, VStack, Select, HStack, useBreakpointValue } from '@chakra-ui/react'
 import { useState } from 'react'
-import type { ImageData } from './types'
+import type { GalleryData } from './types'
 import { gallery25_01 } from './data/gallery25_01'
 import { gallery25_02 } from './data/gallery25_02'
 import { gallery25_03 } from './data/gallery25_03'
 import { gallery25_04 } from './data/gallery25_04'
 import { gallery25_05 } from './data/gallery25_05'
 
-function Gallery({ images }: { images: ImageData[] }) {
+function Gallery({ gallery }: { gallery: GalleryData }) {
   const [selectedImage, setSelectedImage] = useState<number | null>(null)
   const [isModalOpen, setIsModalOpen] = useState(false)
   
-  const selectedImageData = images.find(img => img.id === selectedImage)
+  const selectedImageData = gallery.images.find(img => img.id === selectedImage)
 
   const handleImageClick = (id: number) => {
     setSelectedImage(id)
@@ -24,11 +24,18 @@ function Gallery({ images }: { images: ImageData[] }) {
 
   return (
     <>
+      <VStack spacing={4} align="stretch" mb={8}>
+        <Heading size="xl">{gallery.title}</Heading>
+        {gallery.subtitle && (
+          <Text fontSize="lg" color="gray.600">{gallery.subtitle}</Text>
+        )}
+      </VStack>
+
       <SimpleGrid
         columns={{ base: 1, sm: 2, md: 3, lg: 4 }}
         gap={{ base: 4, md: 6, lg: 8 }}
       >
-        {images.map((image) => (
+        {gallery.images.map((image) => (
           <Box
             key={image.id}
             borderWidth="1px"
@@ -143,7 +150,7 @@ function App() {
         </HStack>
 
         <Box width="100%">
-          <Gallery images={selectedGallery} />
+          <Gallery gallery={selectedGallery} />
         </Box>
       </VStack>
     </Container>
