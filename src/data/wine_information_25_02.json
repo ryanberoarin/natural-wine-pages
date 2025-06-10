@@ -1,6 +1,7 @@
 [
   {
     "name": "Joséphine",
+    "grape": ["Chardonnay", "Chenin Blanc", "Mauzac"],
     "vintage": "",
     "region": "France / Languedoc / Roquetaillade",
     "winery": "Geneviève & Gilles Azam",
@@ -8,6 +9,7 @@
   },
   {
     "name": "Céleste",
+    "grape": ["Chenin Blanc"],
     "vintage": "2022",
     "region": "France / Languedoc / Roquetaillade",
     "winery": "Geneviève & Gilles Azam",
@@ -15,6 +17,7 @@
   },
   {
     "name": "Terre de Silex",
+    "grape": ["Sauvignon Blanc"],
     "vintage": "",
     "region": "France / Loire",
     "winery": "",
@@ -22,13 +25,15 @@
   },
   {
     "name": "le Clau",
+    "grape": ["Ugni Blanc"],
     "vintage": "2023",
     "region": "France",
     "winery": "",
-    "notes": "Vin de France 등급, 라벨로 보아 내추럴 스타일 와인"
+    "notes": "Vin de France 등급, 내추럴 스타일 화이트 와인"
   },
   {
     "name": "Panorama",
+    "grape": ["Merlot", "Cinsault"],
     "vintage": "",
     "region": "France / Languedoc",
     "winery": "Geneviève & Gilles Azam",
@@ -36,6 +41,7 @@
   },
   {
     "name": "Volnay 1er Cru 'Clos des Chênes'",
+    "grape": ["Pinot Noir"],
     "vintage": "",
     "region": "France / Bourgogne / Volnay",
     "winery": "Domaine Potinet-Ampeau",
@@ -43,13 +49,15 @@
   },
   {
     "name": "[Label: 붉은 곡선 로고]",
+    "grape": ["Melon de Bourgogne"],
     "vintage": "",
     "region": "France / Loire",
-    "winery": "",
+    "winery": "Domaine R de la B",
     "notes": "생산자는 Domaine R de la B 추정, 내추럴 화이트 와인 계열로 보임"
   },
   {
     "name": "Homme de la Roche",
+    "grape": ["Carignan"],
     "vintage": "2023",
     "region": "France",
     "winery": "",
@@ -57,6 +65,7 @@
   },
   {
     "name": "Tavel",
+    "grape": ["Grenache", "Cinsault", "Syrah"],
     "vintage": "2022",
     "region": "France / Rhône / Tavel",
     "winery": "Romain Le Bars",
@@ -64,6 +73,7 @@
   },
   {
     "name": "Panorama",
+    "grape": ["Chardonnay", "Mauzac"],
     "vintage": "",
     "region": "France / Languedoc",
     "winery": "Geneviève & Gilles Azam",
@@ -71,6 +81,7 @@
   },
   {
     "name": "Tavel",
+    "grape": ["Grenache", "Cinsault", "Syrah"],
     "vintage": "2022",
     "region": "France / Rhône / Tavel",
     "winery": "Romain Le Bars",

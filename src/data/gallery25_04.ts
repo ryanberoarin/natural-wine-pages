@@ -6,19 +6,19 @@ export const gallery25_04: GalleryData = {
     {
       id: 1,
       url: 'images/25-04/250401.png',
-      title: 'Les Capriades Méthode Ancestrale',
+      title: 'Les Capriades Méthode Ancestrale (Chenin Blanc)',
       description: 'France / Loire / Les Capriades / Pet-Nat (Méthode Ancestrale), 자연 효모, 필터링 없는 섬세한 거품'
     },
     {
       id: 2,
       url: 'images/25-04/250402.png',
-      title: 'Bodet-Herold Les Greffiers (2021)',
+      title: 'Bodet-Herold Les Greffiers (2021, Chenin Blanc)',
       description: 'France / Loire / Bodet-Herold / 100% Chenin Blanc, Brut Nature, limestone terroir 기반 섬세한 기포'
     },
     {
       id: 3,
       url: 'images/25-04/250403.png',
-      title: 'Louisette (2023)',
+      title: 'Louisette (2023, Grenache)',
       description: 'France / Roussillon / Banyuls-sur-Mer / Bruno Duchêne / Vin de France, 천연발효 로제 페티앙, 과일향과 산미'
     },
     {
@@ -30,19 +30,19 @@ export const gallery25_04: GalleryData = {
     {
       id: 5,
       url: 'images/25-04/250405.png',
-      title: 'Domaine Vinci Còdols',
+      title: 'Domaine Vinci Còdols (Grenache Blanc, Grenache Gris)',
       description: 'France / Roussillon / Domaine Vinci / Grenache Blanc, 내추럴 화이트 와인, 섬세한 미네랄'
     },
     {
       id: 6,
       url: 'images/25-04/250406.png',
-      title: 'Domaine Vinci Coyade',
+      title: 'Domaine Vinci Coyade (Macabeu)',
       description: 'France / Roussillon / Domaine Vinci / Grenache Noir, Mourvèdre 등 블렌드, 과일 중심 레드'
     },
     {
       id: 7,
       url: 'images/25-04/250407.png',
-      title: 'Domaine Vinci Tecla',
+      title: 'Domaine Vinci Tecla (Macabeu, Grenache Gris)',
       description: 'France / Roussillon / Domaine Vinci / Macabeu, Grenache Gris 등, 텍스처와 미네랄리티 중심'
     },
     {
@@ -66,19 +66,19 @@ export const gallery25_04: GalleryData = {
     {
       id: 11,
       url: 'images/25-04/250411.png',
-      title: 'Cuvee Weiss (2021)',
+      title: 'Cuvee Weiss (2021, Chardonnay, Huxelrebe, Müller-Thurgau, Pinot Blanc, Riesling, Scheurebe, Silvaner)',
       description: 'Germany / Dominik Held / 화이트 와인 블렌드, 내추럴 스타일, 독일산'
     },
     {
       id: 12,
       url: 'images/25-04/250412.png',
-      title: 'Ron-rond blanc (2023)',
+      title: 'Ron-rond blanc (2023, Pinot Blanc, Riesling, Gewürztraminer, Sylvaner)',
       description: 'France / Alsace / Yann Durmann & Co / Vin de France, Cuvée Nature, 무첨가 내추럴 화이트'
     },
     {
       id: 13,
       url: 'images/25-04/250413.png',
-      title: 'Pinot Noir (2022)',
+      title: 'Pinot Noir (2022, Pinot Noir)',
       description: 'France / Alsace / Yann Durmann & Co / Cuvée Nature, 무첨가 내추럴 레드, Alsace Pinot Noir'
     }
   ]

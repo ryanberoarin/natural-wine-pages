@@ -6,7 +6,7 @@ export const gallery25_02: GalleryData = {
     {
       id: 1,
       url: 'images/25-02/250201.jpg',
-      title: 'Joséphine',
+      title: 'Joséphine (Méthode Ancestrale)',
       description: 'France / Languedoc / Roquetaillade / Geneviève & Gilles Azam / Brut Nature, Méthode Ancestrale 스파클링, 산뜻하고 섬세한 기포'
     },
     {
@@ -18,7 +18,7 @@ export const gallery25_02: GalleryData = {
     {
       id: 3,
       url: 'images/25-02/250203.jpg',
-      title: 'Terre de Silex',
+      title: 'Terre de Silex (Sauvignon Blanc)',
       description: 'France / Loire / Sauvignon Blanc 기반 추정, 미네랄 중심의 화이트 와인'
     },
     {
@@ -30,19 +30,19 @@ export const gallery25_02: GalleryData = {
     {
       id: 5,
       url: 'images/25-02/250205.jpg',
-      title: 'Panorama',
+      title: 'Panorama (Rosé)',
       description: 'France / Languedoc / Geneviève & Gilles Azam / 로제 와인, 은은한 탄닌과 풍부한 풍미, 내추럴 스타일'
     },
     {
       id: 6,
       url: 'images/25-02/250206.jpg',
-      title: 'Volnay 1er Cru \'Clos des Chênes\'',
+      title: 'Volnay 1er Cru \'Clos des Chênes\' (Pinot Noir)',
       description: 'France / Bourgogne / Volnay / Domaine Potinet-Ampeau / Pinot Noir 기반, 구조감과 우아함이 있는 프리미어 크뤼 레드'
     },
     {
       id: 7,
       url: 'images/25-02/250207.jpg',
-      title: '[Label: 붉은 곡선 로고]',
+      title: '[Label: 붉은 곡선 로고] (White)',
       description: 'France / Loire / 생산자는 Domaine R de la B 추정, 내추럴 화이트 와인 계열로 보임'
     },
     {
@@ -54,19 +54,19 @@ export const gallery25_02: GalleryData = {
     {
       id: 9,
       url: 'images/25-02/250209.jpg',
-      title: 'Tavel (2022)',
+      title: 'Tavel (2022, Rosé)',
       description: 'France / Rhône / Tavel / Romain Le Bars / AOP Tavel, 내추럴 로제, 집중도 높고 풍부한 구조감'
     },
     {
       id: 10,
       url: 'images/25-02/250210.jpg',
-      title: 'Panorama',
+      title: 'Panorama (White)',
       description: 'France / Languedoc / Geneviève & Gilles Azam / 화이트 버전, 미네랄리티 중심의 화이트로 보임 (같은 이름 중 복수 존재)'
     },
     {
       id: 11,
       url: 'images/25-02/250211.jpg',
-      title: 'Tavel (2022)',
+      title: 'Tavel (2022, Rosé)',
       description: 'France / Rhône / Tavel / Romain Le Bars / 중복 병: AOP Tavel 로제 와인, 내추럴 스타일'
     }
   ]

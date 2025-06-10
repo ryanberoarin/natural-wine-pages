@@ -1,51 +1,58 @@
 [
-    {
-      "name": "LE P'TIT BLANC",
-      "vintage": "",
-      "region": "France / Loire / Touraine",
-      "winery": "Les Vins Contés (Olivier Lemasson)",
-      "notes": "Sauvignon Blanc 기반, 밝고 상큼, 내추럴 스타일"
-    },
-    {
-      "name": "Goutte d’O",
-      "vintage": "",
-      "region": "France / Loire / Touraine",
-      "winery": "Sylvain Martinez",
-      "notes": "Chenin Blanc, 무첨가 내추럴 화이트"
-    },
-    {
-      "name": "Chenin Faisant",
-      "vintage": "",
-      "region": "France / Loire / Anjou",
-      "winery": "Thomas Beclair",
-      "notes": "Chenin Blanc, 명확한 산미와 풍부한 질감"
-    },
-    {
-      "name": "Les Aussigouins",
-      "vintage": "2021",
-      "region": "France / Loire / Anjou",
-      "winery": "Mai et Kenji Hodgson",
-      "notes": "유기농 방식, 미네랄과 과일 향의 조화"
-    },
-    {
-      "name": "La Guimardiere",
-      "vintage": "",
-      "region": "France / Loire / Saumur",
-      "winery": "Abel Benmaamar",
-      "notes": "Chenin Blanc, 집중도 높은 구조감"
-    },
-    {
-      "name": "La Nouette",
-      "vintage": "",
-      "region": "France / Loire / Saumur",
-      "winery": "Abel Benmaamar",
-      "notes": "미세한 산미와 긴 여운"
-    },
-    {
-      "name": "Les Rosiers",
-      "vintage": "2022",
-      "region": "France / Loire / Jasnières",
-      "winery": "Domaine de Bellivière",
-      "notes": "Chenin Blanc, Jasnières AOC, 복합적인 과일향과 미네랄"
-    }
-  ]
+  {
+    "name": "LE P'TIT BLANC",
+    "grape": ["Sauvignon Blanc"],
+    "vintage": "",
+    "region": "France / Loire / Touraine",
+    "winery": "Les Vins Contés (Olivier Lemasson)",
+    "notes": "Sauvignon Blanc 기반, 밝고 상큼, 내추럴 스타일"
+  },
+  {
+    "name": "Goutte d’O",
+    "grape": ["Chenin Blanc"],
+    "vintage": "",
+    "region": "France / Loire / Touraine",
+    "winery": "Sylvain Martinez",
+    "notes": "Chenin Blanc, 무첨가 내추럴 화이트"
+  },
+  {
+    "name": "Chenin Faisant",
+    "grape": ["Chenin Blanc"],
+    "vintage": "",
+    "region": "France / Loire / Anjou",
+    "winery": "Thomas Beclair",
+    "notes": "Chenin Blanc, 명확한 산미와 풍부한 질감"
+  },
+  {
+    "name": "Les Aussigouins",
+    "grape": ["Chenin Blanc"],
+    "vintage": "2021",
+    "region": "France / Loire / Anjou",
+    "winery": "Mai et Kenji Hodgson",
+    "notes": "유기농 방식, 미네랄과 과일 향의 조화"
+  },
+  {
+    "name": "La Guimardiere",
+    "grape": ["Chenin Blanc"],
+    "vintage": "",
+    "region": "France / Loire / Saumur",
+    "winery": "Abel Benmaamar",
+    "notes": "Chenin Blanc, 집중도 높은 구조감"
+  },
+  {
+    "name": "La Nouette",
+    "grape": ["Chenin Blanc"],
+    "vintage": "",
+    "region": "France / Loire / Saumur",
+    "winery": "Abel Benmaamar",
+    "notes": "미세한 산미와 긴 여운"
+  },
+  {
+    "name": "Les Rosiers",
+    "grape": ["Chenin Blanc"],
+    "vintage": "2022",
+    "region": "France / Loire / Jasnières",
+    "winery": "Domaine de Bellivière",
+    "notes": "Chenin Blanc, Jasnières AOC, 복합적인 과일향과 미네랄"
+  }
+]

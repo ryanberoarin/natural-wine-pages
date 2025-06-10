@@ -1,6 +1,7 @@
 [
   {
     "name": "Les Capriades Méthode Ancestrale",
+    "grape": ["Chenin Blanc"],
     "vintage": "",
     "region": "France / Loire",
     "winery": "Les Capriades",
@@ -8,6 +9,7 @@
   },
   {
     "name": "Bodet-Herold Les Greffiers",
+    "grape": ["Chenin Blanc"],
     "vintage": "2021",
     "region": "France / Loire",
     "winery": "Bodet-Herold",
@@ -15,6 +17,7 @@
   },
   {
     "name": "Louisette",
+    "grape": ["Grenache"],
     "vintage": "2023",
     "region": "France / Roussillon / Banyuls-sur-Mer",
     "winery": "Bruno Duchêne",
@@ -22,6 +25,7 @@
   },
   {
     "name": "[Label: 붉은 추상화]",
+    "grape": [],
     "vintage": "",
     "region": "",
     "winery": "",
@@ -29,6 +33,7 @@
   },
   {
     "name": "Domaine Vinci Còdols",
+    "grape": ["Grenache Blanc", "Grenache Gris"],
     "vintage": "",
     "region": "France / Roussillon",
     "winery": "Domaine Vinci",
@@ -36,6 +41,7 @@
   },
   {
     "name": "Domaine Vinci Coyade",
+    "grape": ["Macabeu"],
     "vintage": "",
     "region": "France / Roussillon",
     "winery": "Domaine Vinci",
@@ -43,6 +49,7 @@
   },
   {
     "name": "Domaine Vinci Tecla",
+    "grape": ["Macabeu", "Grenache Gris"],
     "vintage": "",
     "region": "France / Roussillon",
     "winery": "Domaine Vinci",
@@ -50,6 +57,7 @@
   },
   {
     "name": "[Label: 케상느 추정]",
+    "grape": [],
     "vintage": "",
     "region": "",
     "winery": "Késané?",
@@ -57,6 +65,7 @@
   },
   {
     "name": "[Label: 파란 소용돌이]",
+    "grape": [],
     "vintage": "",
     "region": "",
     "winery": "",
@@ -64,6 +73,7 @@
   },
   {
     "name": "[Label: 여우와 포도]",
+    "grape": [],
     "vintage": "",
     "region": "",
     "winery": "",
@@ -71,6 +81,7 @@
   },
   {
     "name": "Cuvee Weiss",
+    "grape": ["Chardonnay", "Huxelrebe", "Müller-Thurgau", "Pinot Blanc", "Riesling", "Scheurebe", "Silvaner"],
     "vintage": "2021",
     "region": "Germany",
     "winery": "Dominik Held",
@@ -78,6 +89,7 @@
   },
   {
     "name": "Ron-rond blanc",
+    "grape": ["Pinot Blanc", "Riesling", "Gewürztraminer", "Sylvaner"],
     "vintage": "2023",
     "region": "France / Alsace",
     "winery": "Yann Durmann & Co",
@@ -85,6 +97,7 @@
   },
   {
     "name": "Pinot Noir",
+    "grape": ["Pinot Noir"],
     "vintage": "2022",
     "region": "France / Alsace",
     "winery": "Yann Durmann & Co",
