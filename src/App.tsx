@@ -6,6 +6,7 @@ import { gallery25_02 } from './data/gallery25_02'
 import { gallery25_03 } from './data/gallery25_03'
 import { gallery25_04 } from './data/gallery25_04'
 import { gallery25_05 } from './data/gallery25_05'
+import { gallery25_06 } from './data/gallery25_06'
 
 function Gallery({ gallery }: { gallery: GalleryData }) {
   const [selectedImage, setSelectedImage] = useState<number | null>(null)
@@ -117,7 +118,8 @@ function App() {
     { id: '02', label: '2025.02', data: gallery25_02 },
     { id: '03', label: '2025.03', data: gallery25_03 },
     { id: '04', label: '2025.04', data: gallery25_04 },
-    { id: '05', label: '2025.05', data: gallery25_05 }
+    { id: '05', label: '2025.05', data: gallery25_05 },
+    { id: '06', label: '2025.06', data: gallery25_06 }
   ]
 
   const [selectedMonth, setSelectedMonth] = useState(months[months.length - 1].id)

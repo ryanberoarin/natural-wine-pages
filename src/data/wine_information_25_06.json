@@ -1,0 +1,83 @@
+[
+    {
+      "recommended order": 1,
+      "wine": "Schneider Brut",
+      "type": "Sekt (Sparkling)",
+      "grape": "Likely Chardonnay blend",
+      "region": "Baden, Germany",
+      "style": "브뤼, 드라이하고 산뜻함",
+      "tasting notes": "아삭한 사과, 브리오슈, 섬세한 기포"
+    },
+    {
+      "recommended order": 2,
+      "wine": "Glow Glow 2 (Pink Fizzy)",
+      "type": "Pet-Nat",
+      "grape": "Red/White blend (unknown)",
+      "region": "Nahe, Germany",
+      "style": "과실 풍부, 톡 쏘고 유쾌함",
+      "tasting notes": "크랜베리, 히비스커스, 장난기 있는 탄산감"
+    },
+    {
+      "recommended order": 3,
+      "wine": "Pet-Nat Germany (V-label)",
+      "type": "Pet-Nat",
+      "grape": "Likely Rosé blend",
+      "region": "Germany",
+      "style": "자연 발효, 플로럴하고 스파클링함",
+      "tasting notes": "야생 베리, 크리미한 기포감, 플로럴"
+    },
+    {
+      "recommended order": 4,
+      "wine": "Glow Glow Weissburgunder 2023",
+      "type": "Still White",
+      "grape": "Weissburgunder (Pinot Blanc)",
+      "region": "Nahe, Germany",
+      "style": "가볍고 고소하며 플로럴",
+      "tasting notes": "배, 흰 꽃, 아몬드"
+    },
+    {
+      "recommended order": 5,
+      "wine": "Glow Glow Chardonnay 2023",
+      "type": "Still White",
+      "grape": "Chardonnay",
+      "region": "Nahe, Germany",
+      "style": "내추럴, 최소 개입",
+      "tasting notes": "복숭아류 과일, 부드러운 오크, 자연스러운 미네랄감"
+    },
+    {
+      "recommended order": 6,
+      "wine": "Schneider Weil am Rhein Chardonnay 2021",
+      "type": "Still White",
+      "grape": "Chardonnay",
+      "region": "Baden, Germany",
+      "style": "클래식, 드라이하며 구조감 있음",
+      "tasting notes": "레몬 제스트, 헤이즐넛, 구조감 있는 맛"
+    },
+    {
+      "recommended order": 7,
+      "wine": "Glow Glow Riesling 2023",
+      "type": "Still White",
+      "grape": "Riesling",
+      "region": "Nahe, Germany",
+      "style": "신선하고 드라이, 생생한 산도",
+      "tasting notes": "라임, 슬레이트, 신선한 산도"
+    },
+    {
+      "recommended order": 8,
+      "wine": "Dominik Held Riesling 2021",
+      "type": "Still White",
+      "grape": "Riesling",
+      "region": "Nahe, Germany",
+      "style": "내추럴, 상큼하고 미네랄감 있음",
+      "tasting notes": "상큼한 레몬, 허브, 약간의 환원향"
+    },
+    {
+      "recommended order": 9,
+      "wine": "La Bohème",
+      "type": "Still White",
+      "grape": "Likely Riesling blend",
+      "region": "Germany",
+      "style": "질감 있고 우아하며 아로마틱함",
+      "tasting notes": "허브향, 감귤 껍질, 질감 있는 피니시"
+    }
+  ]
