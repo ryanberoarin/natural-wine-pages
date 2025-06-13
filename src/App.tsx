@@ -23,6 +23,27 @@ function Gallery({ gallery }: { gallery: GalleryData }) {
     setIsModalOpen(false)
   }
 
+  const handleModalClick = (e: React.MouseEvent) => {
+    e.stopPropagation()
+    if (!selectedImage) return
+
+    const rect = e.currentTarget.getBoundingClientRect()
+    const x = e.clientX - rect.left
+    const isLeftClick = x < rect.width / 2
+
+    if (isLeftClick) {
+      // 이전 이미지로 이동
+      const currentIndex = gallery.images.findIndex(img => img.id === selectedImage)
+      const prevIndex = currentIndex > 0 ? currentIndex - 1 : gallery.images.length - 1
+      setSelectedImage(gallery.images[prevIndex].id)
+    } else {
+      // 다음 이미지로 이동
+      const currentIndex = gallery.images.findIndex(img => img.id === selectedImage)
+      const nextIndex = currentIndex < gallery.images.length - 1 ? currentIndex + 1 : 0
+      setSelectedImage(gallery.images[nextIndex].id)
+    }
+  }
+
   return (
     <>
       <VStack spacing={4} align="stretch" mb={8}>
@@ -85,7 +106,8 @@ function Gallery({ gallery }: { gallery: GalleryData }) {
             position="relative"
             maxW="90vw"
             maxH="90vh"
-            onClick={(e) => e.stopPropagation()}
+            cursor="pointer"
+            onClick={handleModalClick}
           >
             <Image
               src={selectedImageData.url}
@@ -104,6 +126,20 @@ function Gallery({ gallery }: { gallery: GalleryData }) {
             >
               <Heading size="md">{selectedImageData.title}</Heading>
               <Text mt={2}>{selectedImageData.description}</Text>
+            </Box>
+            <Box
+              position="absolute"
+              top="50%"
+              left={0}
+              right={0}
+              transform="translateY(-50%)"
+              display="flex"
+              justifyContent="space-between"
+              px={4}
+              pointerEvents="none"
+            >
+              <Text color="white" fontSize="xl" opacity={0.7}>←</Text>
+              <Text color="white" fontSize="xl" opacity={0.7}>→</Text>
             </Box>
           </Box>
         </Box>
