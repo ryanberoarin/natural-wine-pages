@@ -1,5 +1,5 @@
 import { Box, Container, Heading, Image, SimpleGrid, Text, VStack, Select, HStack, useBreakpointValue } from '@chakra-ui/react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import type { GalleryData } from './types'
 import { gallery25_01 } from './data/gallery25_01'
 import { gallery25_02 } from './data/gallery25_02'
@@ -41,6 +41,43 @@ function Gallery({ gallery }: { gallery: GalleryData }) {
       const currentIndex = gallery.images.findIndex(img => img.id === selectedImage)
       const nextIndex = currentIndex < gallery.images.length - 1 ? currentIndex + 1 : 0
       setSelectedImage(gallery.images[nextIndex].id)
+    }
+  }
+
+  // ESC 키 핸들러 추가
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && isModalOpen) {
+        handleCloseModal()
+      }
+    }
+
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [isModalOpen])
+
+  // 터치 이벤트 핸들러 추가
+  const handleTouchStart = (e: React.TouchEvent) => {
+    const touch = e.touches[0]
+    const target = e.currentTarget
+    const rect = target.getBoundingClientRect()
+    const x = touch.clientX - rect.left
+
+    // 이미지 영역을 터치한 경우에만 처리
+    if (x >= 0 && x <= rect.width) {
+      const isLeftTouch = x < rect.width / 2
+
+      if (isLeftTouch) {
+        // 이전 이미지로 이동
+        const currentIndex = gallery.images.findIndex(img => img.id === selectedImage)
+        const prevIndex = currentIndex > 0 ? currentIndex - 1 : gallery.images.length - 1
+        setSelectedImage(gallery.images[prevIndex].id)
+      } else {
+        // 다음 이미지로 이동
+        const currentIndex = gallery.images.findIndex(img => img.id === selectedImage)
+        const nextIndex = currentIndex < gallery.images.length - 1 ? currentIndex + 1 : 0
+        setSelectedImage(gallery.images[nextIndex].id)
+      }
     }
   }
 
@@ -108,6 +145,7 @@ function Gallery({ gallery }: { gallery: GalleryData }) {
             maxH="90vh"
             cursor="pointer"
             onClick={handleModalClick}
+            onTouchStart={handleTouchStart}
           >
             <Image
               src={selectedImageData.url}
