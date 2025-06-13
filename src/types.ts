@@ -2,7 +2,12 @@ export interface ImageData {
   id: number
   url: string
   title: string
-  description: string
+  country: string
+  region: string
+  type: string
+  grape: string
+  style: string
+  tastingNotes: string
 }
 
 export interface GalleryData {

@@ -1,85 +1,150 @@
 import type { GalleryData } from '../types'
 
 export const gallery25_04: GalleryData = {
-  title: '2025년 4월 - 봄봄한 와인',
+  title: '2025년 4월 - 프랑스 와인',
   images: [
     {
       id: 1,
       url: 'images/25-04/250401.png',
-      title: 'Les Capriades Méthode Ancestrale (Chenin Blanc)',
-      description: 'France / Loire / Les Capriades / Pet-Nat (Méthode Ancestrale), 자연 효모, 필터링 없는 섬세한 거품'
+      title: 'Pet-Nat',
+      country: 'France',
+      region: 'Loire',
+      type: 'Sparkling Wine',
+      grape: 'Unknown Blend',
+      style: '자연 효모, 필터링 없는 섬세한 거품',
+      tastingNotes: '과일, 미네랄, 섬세한 기포감'
     },
     {
       id: 2,
       url: 'images/25-04/250402.png',
-      title: 'Bodet-Herold Les Greffiers (2021, Chenin Blanc)',
-      description: 'France / Loire / Bodet-Herold / 100% Chenin Blanc, Brut Nature, limestone terroir 기반 섬세한 기포'
+      title: 'Brut Nature',
+      country: 'France',
+      region: 'Loire',
+      type: 'Sparkling Wine',
+      grape: 'Chenin Blanc',
+      style: 'Brut Nature, limestone terroir 기반',
+      tastingNotes: '사과, 미네랄, 섬세한 기포감'
     },
     {
       id: 3,
       url: 'images/25-04/250403.png',
-      title: 'Louisette (2023, Grenache)',
-      description: 'France / Roussillon / Banyuls-sur-Mer / Bruno Duchêne / Vin de France, 천연발효 로제 페티앙, 과일향과 산미'
+      title: 'Natural Rosé',
+      country: 'France',
+      region: 'Roussillon',
+      type: 'Rosé Wine',
+      grape: 'Unknown Blend',
+      style: '천연발효 로제 페티앙',
+      tastingNotes: '과일향, 산미, 미네랄'
     },
     {
       id: 4,
       url: 'images/25-04/250404.png',
-      title: '[Label: 붉은 추상화]',
-      description: '정보 부족 (에티켓으로 추정되는 내추럴 레드 혹은 로제)'
+      title: 'Unknown Natural',
+      country: 'France',
+      region: 'Unknown',
+      type: 'Natural Wine',
+      grape: 'Unknown Blend',
+      style: '내추럴 레드 혹은 로제',
+      tastingNotes: '과일향, 미네랄, 자연스러운 산도'
     },
     {
       id: 5,
       url: 'images/25-04/250405.png',
-      title: 'Domaine Vinci Còdols (Grenache Blanc, Grenache Gris)',
-      description: 'France / Roussillon / Domaine Vinci / Grenache Blanc, 내추럴 화이트 와인, 섬세한 미네랄'
+      title: 'Grenache Blanc',
+      country: 'France',
+      region: 'Roussillon',
+      type: 'White Wine',
+      grape: 'Grenache Blanc',
+      style: '내추럴 화이트 와인',
+      tastingNotes: '미네랄, 과일, 신선한 산도'
     },
     {
       id: 6,
       url: 'images/25-04/250406.png',
-      title: 'Domaine Vinci Coyade (Macabeu)',
-      description: 'France / Roussillon / Domaine Vinci / Grenache Noir, Mourvèdre 등 블렌드, 과일 중심 레드'
+      title: 'Grenache Noir Blend',
+      country: 'France',
+      region: 'Roussillon',
+      type: 'Red Wine',
+      grape: 'Grenache Noir, Mourvèdre',
+      style: '과일 중심 레드',
+      tastingNotes: '과일, 미네랄, 허브'
     },
     {
       id: 7,
       url: 'images/25-04/250407.png',
-      title: 'Domaine Vinci Tecla (Macabeu, Grenache Gris)',
-      description: 'France / Roussillon / Domaine Vinci / Macabeu, Grenache Gris 등, 텍스처와 미네랄리티 중심'
+      title: 'White Blend',
+      country: 'France',
+      region: 'Roussillon',
+      type: 'White Wine',
+      grape: 'Macabeu, Grenache Gris',
+      style: '텍스처와 미네랄리티 중심',
+      tastingNotes: '과일, 미네랄, 허브'
     },
     {
       id: 8,
       url: 'images/25-04/250408.png',
-      title: '[Label: 케상느 추정]',
-      description: 'Késané? / 정보 부족 (라벨로 미루어 볼 때 예술적 내추럴 화이트 추정)'
+      title: 'Artistic White',
+      country: 'Unknown',
+      region: 'Unknown',
+      type: 'White Wine',
+      grape: 'Unknown Blend',
+      style: '예술적 내추럴 화이트',
+      tastingNotes: '과일, 미네랄, 자연스러운 산도'
     },
     {
       id: 9,
       url: 'images/25-04/250409.png',
-      title: '[Label: 파란 소용돌이]',
-      description: '정보 부족 (아티스틱한 라벨로 추정, 내추럴 와인일 가능성 높음)'
+      title: 'Artistic Natural',
+      country: 'Unknown',
+      region: 'Unknown',
+      type: 'Natural Wine',
+      grape: 'Unknown Blend',
+      style: '아티스틱한 내추럴 와인',
+      tastingNotes: '과일, 미네랄, 자연스러운 산도'
     },
     {
       id: 10,
       url: 'images/25-04/250410.png',
-      title: '[Label: 여우와 포도]',
-      description: '정보 부족 (스테인드 글라스 느낌의 라벨, 내추럴 와인 추정)'
+      title: 'Stained Glass Natural',
+      country: 'Unknown',
+      region: 'Unknown',
+      type: 'Natural Wine',
+      grape: 'Unknown Blend',
+      style: '스테인드 글라스 느낌의 내추럴 와인',
+      tastingNotes: '과일, 미네랄, 자연스러운 산도'
     },
     {
       id: 11,
       url: 'images/25-04/250411.png',
-      title: 'Cuvee Weiss (2021, Chardonnay, Huxelrebe, Müller-Thurgau, Pinot Blanc, Riesling, Scheurebe, Silvaner)',
-      description: 'Germany / Dominik Held / 화이트 와인 블렌드, 내추럴 스타일, 독일산'
+      title: 'German White Blend',
+      country: 'Germany',
+      region: 'Unknown',
+      type: 'White Wine',
+      grape: 'Unknown Blend',
+      style: '내추럴 스타일',
+      tastingNotes: '과일, 미네랄, 신선한 산도'
     },
     {
       id: 12,
       url: 'images/25-04/250412.png',
-      title: 'Ron-rond blanc (2023, Pinot Blanc, Riesling, Gewürztraminer, Sylvaner)',
-      description: 'France / Alsace / Yann Durmann & Co / Vin de France, Cuvée Nature, 무첨가 내추럴 화이트'
+      title: 'Cuvée Nature',
+      country: 'France',
+      region: 'Alsace',
+      type: 'White Wine',
+      grape: 'Unknown Blend',
+      style: '무첨가 내추럴 화이트',
+      tastingNotes: '과일, 미네랄, 자연스러운 산도'
     },
     {
       id: 13,
       url: 'images/25-04/250413.png',
-      title: 'Pinot Noir (2022, Pinot Noir)',
-      description: 'France / Alsace / Yann Durmann & Co / Cuvée Nature, 무첨가 내추럴 레드, Alsace Pinot Noir'
+      title: 'Natural Pinot Noir',
+      country: 'France',
+      region: 'Alsace',
+      type: 'Red Wine',
+      grape: 'Pinot Noir',
+      style: '무첨가 내추럴 레드',
+      tastingNotes: '체리, 미네랄, 허브'
     }
   ]
 } 

@@ -119,7 +119,13 @@ function Gallery({ gallery }: { gallery: GalleryData }) {
             </Box>
             <Box p={4}>
               <Heading size="md">{image.title}</Heading>
-              <Text mt={2} color="gray.600">{image.description}</Text>
+              <VStack align="start" spacing={1} mt={2}>
+                <Text color="gray.600"><b>국가/지역:</b> {image.country} / {image.region}</Text>
+                <Text color="gray.600"><b>타입:</b> {image.type}</Text>
+                <Text color="gray.600"><b>품종:</b> {image.grape}</Text>
+                <Text color="gray.600"><b>스타일:</b> {image.style}</Text>
+                <Text color="gray.600"><b>테이스팅 노트:</b> {image.tastingNotes}</Text>
+              </VStack>
             </Box>
           </Box>
         ))}
@@ -163,7 +169,13 @@ function Gallery({ gallery }: { gallery: GalleryData }) {
               p={4}
             >
               <Heading size="md">{selectedImageData.title}</Heading>
-              <Text mt={2}>{selectedImageData.description}</Text>
+              <VStack align="start" spacing={1} mt={2}>
+                <Text><b>국가/지역:</b> {selectedImageData.country} / {selectedImageData.region}</Text>
+                <Text><b>타입:</b> {selectedImageData.type}</Text>
+                <Text><b>품종:</b> {selectedImageData.grape}</Text>
+                <Text><b>스타일:</b> {selectedImageData.style}</Text>
+                <Text><b>테이스팅 노트:</b> {selectedImageData.tastingNotes}</Text>
+              </VStack>
             </Box>
             <Box
               position="absolute"

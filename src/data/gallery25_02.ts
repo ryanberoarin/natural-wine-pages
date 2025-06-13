@@ -1,73 +1,128 @@
 import type { GalleryData } from '../types'
 
 export const gallery25_02: GalleryData = {
-  title: '2025년 2월 - 비미와인 몰아마시기',
+  title: '2025년 2월 - 프랑스 와인',
   images: [
     {
       id: 1,
       url: 'images/25-02/250201.jpg',
-      title: 'Joséphine (Méthode Ancestrale)',
-      description: 'France / Languedoc / Roquetaillade / Geneviève & Gilles Azam / Brut Nature, Méthode Ancestrale 스파클링, 산뜻하고 섬세한 기포'
+      title: 'Brut Nature',
+      country: 'France',
+      region: 'Languedoc',
+      type: 'Sparkling Wine',
+      grape: 'Unknown Blend',
+      style: '산뜻하고 섬세한 기포',
+      tastingNotes: '신선한 과일, 미네랄, 섬세한 기포감'
     },
     {
       id: 2,
       url: 'images/25-02/250202.jpg',
-      title: 'Céleste (2022)',
-      description: 'France / Languedoc / Roquetaillade / Geneviève & Gilles Azam / 화이트 와인, 산뜻한 산미와 미네랄 풍미 중심'
+      title: 'White Wine',
+      country: 'France',
+      region: 'Languedoc',
+      type: 'White Wine',
+      grape: 'Unknown Blend',
+      style: '산뜻한 산미와 미네랄 풍미',
+      tastingNotes: '시트러스, 미네랄, 신선한 산도'
     },
     {
       id: 3,
       url: 'images/25-02/250203.jpg',
-      title: 'Terre de Silex (Sauvignon Blanc)',
-      description: 'France / Loire / Sauvignon Blanc 기반 추정, 미네랄 중심의 화이트 와인'
+      title: 'Loire White',
+      country: 'France',
+      region: 'Loire',
+      type: 'White Wine',
+      grape: 'Sauvignon Blanc',
+      style: '미네랄 중심의 화이트',
+      tastingNotes: '구아바, 시트러스, 미네랄'
     },
     {
       id: 4,
       url: 'images/25-02/250204.jpg',
-      title: 'le Clau (2023)',
-      description: 'France / Vin de France 등급, 라벨로 보아 내추럴 스타일 와인'
+      title: 'Natural Wine',
+      country: 'France',
+      region: 'Vin de France',
+      type: 'Natural Wine',
+      grape: 'Unknown Blend',
+      style: '내추럴 스타일',
+      tastingNotes: '과일향, 미네랄, 자연스러운 산도'
     },
     {
       id: 5,
       url: 'images/25-02/250205.jpg',
-      title: 'Panorama (Rosé)',
-      description: 'France / Languedoc / Geneviève & Gilles Azam / 로제 와인, 은은한 탄닌과 풍부한 풍미, 내추럴 스타일'
+      title: 'Rosé Wine',
+      country: 'France',
+      region: 'Languedoc',
+      type: 'Rosé Wine',
+      grape: 'Unknown Blend',
+      style: '은은한 탄닌과 풍부한 풍미',
+      tastingNotes: '딸기, 복숭아, 미네랄'
     },
     {
       id: 6,
       url: 'images/25-02/250206.jpg',
-      title: 'Volnay 1er Cru \'Clos des Chênes\' (Pinot Noir)',
-      description: 'France / Bourgogne / Volnay / Domaine Potinet-Ampeau / Pinot Noir 기반, 구조감과 우아함이 있는 프리미어 크뤼 레드'
+      title: 'Volnay Premier Cru',
+      country: 'France',
+      region: 'Burgundy',
+      type: 'Red Wine',
+      grape: 'Pinot Noir',
+      style: '구조감과 우아함이 있는 프리미어 크뤼',
+      tastingNotes: '체리, 바이올렛, 미네랄'
     },
     {
       id: 7,
       url: 'images/25-02/250207.jpg',
-      title: '[Label: 붉은 곡선 로고] (White)',
-      description: 'France / Loire / 생산자는 Domaine R de la B 추정, 내추럴 화이트 와인 계열로 보임'
+      title: 'Natural White',
+      country: 'France',
+      region: 'Loire',
+      type: 'White Wine',
+      grape: 'Unknown Blend',
+      style: '내추럴 화이트 와인',
+      tastingNotes: '과일향, 미네랄, 자연스러운 산도'
     },
     {
       id: 8,
       url: 'images/25-02/250208.jpg',
-      title: 'Homme de la Roche (2023)',
-      description: 'France / Vin de France 등급, 내추럴 와인, 경쾌하고 과실 중심의 레드 또는 로제'
+      title: 'Natural Red/Rosé',
+      country: 'France',
+      region: 'Vin de France',
+      type: 'Natural Wine',
+      grape: 'Unknown Blend',
+      style: '경쾌하고 과실 중심',
+      tastingNotes: '과일향, 미네랄, 자연스러운 산도'
     },
     {
       id: 9,
       url: 'images/25-02/250209.jpg',
-      title: 'Tavel (2022, Rosé)',
-      description: 'France / Rhône / Tavel / Romain Le Bars / AOP Tavel, 내추럴 로제, 집중도 높고 풍부한 구조감'
+      title: 'Tavel Rosé',
+      country: 'France',
+      region: 'Rhône',
+      type: 'Rosé Wine',
+      grape: 'Unknown Blend',
+      style: '내추럴 로제, 집중도 높고 풍부한 구조감',
+      tastingNotes: '딸기, 복숭아, 미네랄'
     },
     {
       id: 10,
       url: 'images/25-02/250210.jpg',
-      title: 'Panorama (White)',
-      description: 'France / Languedoc / Geneviève & Gilles Azam / 화이트 버전, 미네랄리티 중심의 화이트로 보임 (같은 이름 중 복수 존재)'
+      title: 'White Version',
+      country: 'France',
+      region: 'Languedoc',
+      type: 'White Wine',
+      grape: 'Unknown Blend',
+      style: '미네랄리티 중심의 화이트',
+      tastingNotes: '시트러스, 미네랄, 신선한 산도'
     },
     {
       id: 11,
       url: 'images/25-02/250211.jpg',
-      title: 'Tavel (2022, Rosé)',
-      description: 'France / Rhône / Tavel / Romain Le Bars / 중복 병: AOP Tavel 로제 와인, 내추럴 스타일'
+      title: 'Tavel Rosé Duplicate',
+      country: 'France',
+      region: 'Rhône',
+      type: 'Rosé Wine',
+      grape: 'Unknown Blend',
+      style: '내추럴 스타일',
+      tastingNotes: '딸기, 복숭아, 미네랄'
     }
   ]
 } 
