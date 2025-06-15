@@ -11,6 +11,7 @@ import { gallery25_06 } from './data/gallery25_06'
 function Gallery({ gallery }: { gallery: GalleryData }) {
   const [selectedImage, setSelectedImage] = useState<number | null>(null)
   const [isModalOpen, setIsModalOpen] = useState(false)
+  const [touchStartX, setTouchStartX] = useState<number | null>(null)
   
   const selectedImageData = gallery.images.find(img => img.id === selectedImage)
 
@@ -59,26 +60,31 @@ function Gallery({ gallery }: { gallery: GalleryData }) {
   // 터치 이벤트 핸들러 추가
   const handleTouchStart = (e: React.TouchEvent) => {
     const touch = e.touches[0]
-    const target = e.currentTarget
-    const rect = target.getBoundingClientRect()
-    const x = touch.clientX - rect.left
+    setTouchStartX(touch.clientX)
+  }
 
-    // 이미지 영역을 터치한 경우에만 처리
-    if (x >= 0 && x <= rect.width) {
-      const isLeftTouch = x < rect.width / 2
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    if (!touchStartX || !selectedImage) return
 
-      if (isLeftTouch) {
-        // 이전 이미지로 이동
-        const currentIndex = gallery.images.findIndex(img => img.id === selectedImage)
-        const prevIndex = currentIndex > 0 ? currentIndex - 1 : gallery.images.length - 1
-        setSelectedImage(gallery.images[prevIndex].id)
-      } else {
-        // 다음 이미지로 이동
+    const touch = e.changedTouches[0]
+    const touchEndX = touch.clientX
+    const diff = touchStartX - touchEndX
+
+    // 최소 스와이프 거리 설정 (50px)
+    if (Math.abs(diff) > 50) {
+      if (diff > 0) {
+        // 왼쪽으로 스와이프 - 다음 이미지
         const currentIndex = gallery.images.findIndex(img => img.id === selectedImage)
         const nextIndex = currentIndex < gallery.images.length - 1 ? currentIndex + 1 : 0
         setSelectedImage(gallery.images[nextIndex].id)
+      } else {
+        // 오른쪽으로 스와이프 - 이전 이미지
+        const currentIndex = gallery.images.findIndex(img => img.id === selectedImage)
+        const prevIndex = currentIndex > 0 ? currentIndex - 1 : gallery.images.length - 1
+        setSelectedImage(gallery.images[prevIndex].id)
       }
     }
+    setTouchStartX(null)
   }
 
   return (
@@ -153,6 +159,7 @@ function Gallery({ gallery }: { gallery: GalleryData }) {
             cursor="pointer"
             onClick={handleModalClick}
             onTouchStart={handleTouchStart}
+            onTouchEnd={handleTouchEnd}
           >
             <Image
               src={selectedImageData.url}
