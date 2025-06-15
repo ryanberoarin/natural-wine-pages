@@ -1,7 +1,7 @@
 import type { GalleryData } from '../types'
 
 export const gallery25_06: GalleryData = {
-  title: '2025년 6월 - 독일 와인',
+  title: '독일 몰아마시기',
   images: [
     {
       id: 1,

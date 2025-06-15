@@ -1,7 +1,7 @@
 import type { GalleryData } from '../types'
 
 export const gallery25_01: GalleryData = {
-  title: '2025년 1월 - 프랑스 와인',
+  title: '신년맞이 신대륙',
   images: [
     {
       id: 1,

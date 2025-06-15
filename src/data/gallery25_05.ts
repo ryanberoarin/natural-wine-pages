@@ -1,7 +1,7 @@
 import type { GalleryData } from '../types'
 
 export const gallery25_05: GalleryData = {
-  title: '2025년 5월 - 프랑스 와인',
+  title: '루아르 슈냉 몰아마시기',
   images: [
     {
       id: 1,
