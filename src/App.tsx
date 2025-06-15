@@ -120,6 +120,7 @@ function Gallery({ gallery }: { gallery: GalleryData }) {
             <Box p={4}>
               <Heading size="md">{image.title}</Heading>
               <VStack align="start" spacing={1} mt={2}>
+                <Text color="gray.600"><b>순서:</b> {image.id}</Text>
                 <Text color="gray.600"><b>국가/지역:</b> {image.country} / {image.region}</Text>
                 <Text color="gray.600"><b>타입:</b> {image.type}</Text>
                 <Text color="gray.600"><b>품종:</b> {image.grape}</Text>
@@ -170,6 +171,7 @@ function Gallery({ gallery }: { gallery: GalleryData }) {
             >
               <Heading size="md">{selectedImageData.title}</Heading>
               <VStack align="start" spacing={1} mt={2}>
+                <Text><b>순서:</b> {selectedImageData.id}</Text>
                 <Text><b>국가/지역:</b> {selectedImageData.country} / {selectedImageData.region}</Text>
                 <Text><b>타입:</b> {selectedImageData.type}</Text>
                 <Text><b>품종:</b> {selectedImageData.grape}</Text>
