@@ -1,0 +1,83 @@
+[
+    {
+      "order": 1,
+      "name": "Ponson Blanc de Blancs 2020 Montbré 1er Cru",
+      "style": "Champagne (Blanc de Blancs)",
+      "grapes": "Chardonnay",
+      "region": "Champagne (Montbré 1er Cru)",
+      "tasting_notes": "Zesty lemon peel, chalky minerality, creamy mousse, brioche",
+      "serving_suggestion": "Serve at 10–12°C"
+    },
+    {
+      "order": 2,
+      "name": "Ponson La Petite Montagne 1er Cru",
+      "style": "Champagne (Brut)",
+      "grapes": "Likely Pinot Noir, Meunier, Chardonnay",
+      "region": "Champagne (Montagne de Reims)",
+      "tasting_notes": "Complex orchard fruit, toasted nuts, pastry, good tension",
+      "serving_suggestion": "Serve at 10–12°C"
+    },
+    {
+      "order": 3,
+      "name": "Sylvain Pataille Bourgogne Aligoté 2023",
+      "style": "White",
+      "grapes": "Aligoté",
+      "region": "Marsannay, Burgundy",
+      "tasting_notes": "Lively citrus, floral notes, green apple, high acidity",
+      "serving_suggestion": "Pair with seafood or goat cheese"
+    },
+    {
+      "order": 4,
+      "name": "Ballorin & F Bourgogne Aligoté ‘Le Hardi’",
+      "style": "White (Biodynamic)",
+      "grapes": "Aligoté",
+      "region": "Burgundy",
+      "tasting_notes": "White peach, herbal touch, mineral, rounder texture",
+      "serving_suggestion": "Pair with shellfish or roasted vegetables"
+    },
+    {
+      "order": 5,
+      "name": "L’Arpète 2023 (Claude de Suremain)",
+      "style": "White",
+      "grapes": "Likely Chardonnay",
+      "region": "Burgundy",
+      "tasting_notes": "Ripe apple, light honey, soft acidity, smooth mouthfeel",
+      "serving_suggestion": "Serve with poultry or mild cheeses"
+    },
+    {
+      "order": 6,
+      "name": "Love and Pif (Yann Durieux)",
+      "style": "White (Natural)",
+      "grapes": "Aligoté",
+      "region": "Vin de France",
+      "tasting_notes": "Wild cherry, earthy funk, raw energy, natural edge",
+      "serving_suggestion": "Slightly chilled at 14–16°C"
+    },
+    {
+      "order": 7,
+      "name": "Le Rosé du Matin",
+      "style": "Rosé (Natural)",
+      "grapes": "Likely Gamay or blend",
+      "region": "France",
+      "tasting_notes": "Juicy red berries, rose petals, light spritz possible",
+      "serving_suggestion": "Serve chilled as a palate refresher"
+    },
+    {
+      "order": 8,
+      "name": "Atypique",
+      "style": "Red (Natural)",
+      "grapes": "Likely Gamay or blend",
+      "region": "France",
+      "tasting_notes": "Darker red fruits, herbal core, unfiltered feel",
+      "serving_suggestion": "Serve at 14–16°C with charcuterie"
+    },
+    {
+      "order": 9,
+      "name": "Super B",
+      "style": "Red (Natural)",
+      "grapes": "Gamay or blend",
+      "region": "France",
+      "tasting_notes": "Blackberry, subtle tannins, vivid fruit, spicy kick",
+      "serving_suggestion": "End with this for structure; great with grilled meats"
+    }
+]
