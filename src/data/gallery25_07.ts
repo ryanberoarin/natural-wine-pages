@@ -54,7 +54,7 @@ export const gallery25_07: GalleryData = {
       country: 'France',
       region: 'Burgundy',
       type: 'Still White',
-      grape: 'Likely Chardonnay',
+      grape: 'Aligoté',
       style: '부드럽고 균형잡힌 화이트',
       tastingNotes: '익은 사과, 가벼운 꿀, 부드러운 산도, 매끄러운 입감'
     },
